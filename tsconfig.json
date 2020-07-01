@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
-    "lib": ["es6", "dom"],
+    // "module": "amd",
+    // "lib": ["es6", "dom"],
+    "target": "ES5",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata" : true,
     "sourceMap": true
   },
   "files": [
-    "029_promises.ts"
+    "030_decorator_introduction.ts"
   ]
 }
