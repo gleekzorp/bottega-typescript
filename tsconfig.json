@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
+    "lib": ["es6", "dom"],
     "sourceMap": true
   },
   "files": [
-    "028_higher_order_functions_callbacks.ts"
+    "029_promises.ts"
   ]
 }
